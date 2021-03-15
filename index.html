@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,74 +14,87 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
+
         <header>
-           <div id="entete">
-                <img id="logo" src="images/Reservia.svg" alt="Logo Reservia" title="Site de réservation en ligne">
-                <nav class="main_nav"> 
-                    <ul class="main_ul">
-                        <li><a class="li_blue" href="" title="Accéder aux hébergements">Hébergements</a></li>
+           <div id="header_entete"> <!-- Logo menu_nav -->
+                <img id="header_logo" src="images/logo/Reservia.svg" alt="Logo Reservia" title="Site de réservation en ligne">
+                <nav class="header_nav"> 
+                    <ul class="header_ul">
+                        <li><a class="header_li_blue" href="" title="Accéder aux hébergements">Hébergements</a></li>
                         <li><a href="" title="Accéder aux activités">Activités</a></li>
-                        <li><a class="li_blue" href="" title="Devenir membre">S'inscrire</a></li>
+                        <li><a class="header_li_blue" href="" title="Devenir membre">S'inscrire</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+
             <main>
-                <div id="main_entete">
+                <div class="main_articles_heb"></div> <!-- pour positionnement photo nom coûtnuitée etoiles (hebergements et populaires)-->
+                <div class="main_articles_act"></div> <!-- pour positionnement photo et texte (activités) -->    
+                <div id="main_entete"> <!-- phrases et recherche -->
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
                     <div id="main_recherche">
                         <img src="" title="icone_maps" alt="icône maps">
-                        <p>Zone de saisie</p>
-                        <p>Insérer bouton de recherche</p>  
+                        <p>ZoneDeSaisie</p>
+                        <p>BtnRecherche</p>  
                     </div>
-                    <div id=main_filtres>
+                    <div id=main_liste_filtres> <!-- liste filtres -->
                         <p><strong>Filtres</strong></p>
-                        <ul class="filters">
-                            <li class="li_filters">Économique</li>
-                            <li class="li_filters">Familial</li>
-                            <li class="li_filters">Romantique</li>
-                            <li class="li_filters">Animaux autorisés</li>
+                        <ul class="main_filtres">
+                            <li class="main_li_filtres">Économique</li>
+                            <li class="main_li_filtres">Familial</li>
+                            <li class="main_li_filtres">Romantique</li>
+                            <li class="main_li_filtres">Animaux autorisés</li>
                         </ul>    
                     </div>
-                    <div>
-                        <!-- Insérer icône i et réponse "plus de x"-->
+                    <div id="main_info"> <!-- nbre reponses -->
+                        <p>IconeInfo</p>
+                        <p>Plus de</p> 
+                        <p>InsererNbreReponses </p>
                         <p>logements sont disponibles dans cette ville</p>
                     </div>
                 </div>
-                <div id="pop_heb">
-                    <section id="pop">
+                <div id="main_pop_heb"> <!-- les plus populaires pour positionnement au dessus en mobile -->
+
+                    <section id="main_pop"> <!-- lier à la ville de recherche -->
                         <h1>Les plus populaires</h1>
-                        <div id="articles_pop">
-                            <article>Affichage</article>
-                            <article>Affichage</article>
-                            <article>Affichage</article>
+                        <p>InsererIconeCroissanceADroite</p>
+
+                        <div id="main_articles_pop">
+                            <article class="main_articles_heb" id="main_articles_pop_1">Affichage</article>
+                            <article class="main_articles_heb" id="main_articles_pop_2">Affichage</article>
+                            <article class="main_articles_heb" id="main_articles_pop_3">Affichage</article>
                         </div>
                     </section>
-                    <section id="heb">
-                        <h1>Hébergements à</h1> <!-- Insérer le nom de la ville en réponse à la recherche-->
-                        <div id="articles_heb">
-                            <article>Affichage</article>
-                            <article>Affichage</article>
-                            <article>Affichage</article>
+
+                    <section id="main_heb">
+                        <h1>Hébergements à</h1> <!-- Insérer le nom de la ville en réponse à la recherche et lier le choix des hébergements-->
+                        <div id="main_articles_heb">
+                            <article class="main_articles_heb" id="main_articles_heb_1">Affichage</article>
+                            <article class="main_articles_heb" id="main_articles_heb_2">Affichage</article>
+                            <article class="main_articles_heb" id="main_articles_heb_3">Affichage</article>
                         </div>    
                     </section>
-                </div>    
-                <section id="activites">
-                    <h1>Activités à</h1> <!-- Insérer le nom de la ville en réponse -->
-                    <div id="articles_act">    
-                        <article>Affichage</article>
-                        <article>Affichage</article>
-                        <article>Affichage</article>
-                        <article>Affichage</article>
-                        <article>Affichage</article>
-                        <article>Affichage</article>
+                </div>    <!-- activités hors cette div pour positionnement en dessous -->
+
+                <section id="main_activites">
+                    <h1>Activités à</h1> <!-- Insérer le nom de la ville en réponse et lier le choix des activités -->
+                    <div id="main_articles_act">    
+                        <article class="main_articles_act" id="main_articles_act1">Affichage</article>
+                        <article class="main_articles_act" id="main_articles_act2">Affichage</article>
+                        <article class="main_articles_act" id="main_articles_act3">Affichage</article>
+                        <article class="main_articles_act" id="main_articles_act4">Affichage</article>
+                        <article class="main_articles_act" id="main_articles_act5">Affichage</article>
+                        <article class="main_articles_act" id="main_articles_act6">Affichage</article>
                     </div>
                 </section>
         </main> 
+
         <footer>
-            <section class="section_footer">
+            <section class="footer_section"> <!-- positionnement en colonne si mobile -->
                 <p>A propos</p>
                 <p><a href="" title="Accéder au fonctionnement du site">Fonctionnement du site</a></p>
                 <p><a href="" title="Accéder aux CGV">Conditions générales de vente</a></p>
@@ -97,5 +111,7 @@
                 <p><a href="mailto:norerove54@gmail.com" title="Nous envoyer un mail">Nous contacter</a></p>
             </section>
         </footer>
+
     </body>
+
 </html>

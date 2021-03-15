@@ -1,17 +1,17 @@
 body
 {
     margin : 5%;
-    font-family: 'Raleway', sans-serif; /* Police par défaut : Raleway */
+    font-family: 'Raleway', sans-serif; 
     font-size: 0.65em;
 }
 
-#entete
+#header_entete
 {
     display:flex;
     justify-content: space-between;
 }
 
-#logo
+#header_logo
 {
     float : left;
 }
@@ -20,12 +20,12 @@ a
     text-decoration: none;
 }
 
-.main_nav
+.header_nav
 {
     min-width : 50%;
 }
 
-.main_ul
+.header_ul
 {
     border : 1px solid black;
     display: flex;
@@ -34,9 +34,19 @@ a
     margin : auto;
 }
 
-.li-blue
+.header_li-blue
 {
     color : #0065FC;
+}
+
+#main_info
+{
+    display : flex;
+}
+
+.main_articles_heb
+{
+    display : flex;
 }
 
 #main_recherche
@@ -44,12 +54,12 @@ a
     display:flex;
 }
 
-#main_filtres
+#main_liste_filtres
 {
     display:flex;
 }
 
-.filters
+.main_filtres
 {
     display:flex;
     list-style:none;
@@ -61,45 +71,46 @@ li
     padding-right:5%;
 }
 
-.li_filters
+.main_li_filtres
 {
     font-weight: bold;;
     border : 1px solid #F2F2F2;
     border-radius:30px;
 }
 
-#pop_heb
+#main_pop_heb /* positionner en colonne si mobile */
 {
     display : flex;
     flex-direction : row-reverse;
     justify-content: space-between;
 }
 
-#pop
+#main_pop
 {
-    background-color: #f2f2f2; /* Utilisation du fond gris */
+    background-color: #f2f2f2; 
     justify-content: space-around;
     min-width : 38%;
 }
 
-#heb
+
+#main_heb
 {
-    background-color: #f2f2f2; /* Utilisation du fond gris */
+    background-color: #f2f2f2; 
     min-width : 60%;
 }
 
-#articles_pop
+#main_articles_pop
 {
     margin : 2%;
 }
 
-#articles_heb
+#main_articles_heb
 {
     display:flex;
     justify-content: space-around;
 }
 
-#articles_act
+#main_articles_act
 {
     border : 1px solid red;
     display:flex;
@@ -107,35 +118,34 @@ li
     justify-content: space-around;
 }
 
-
- span
- {
+span
+{
     background-color: #0065FC; 
     color : #DEEBFF;
- }
+}
 
- article
- {
+article
+{
      border : solid 1px black;
- }
+}
 
- section
- {
+section
+{
       border-radius:30px;
- }
+}
 
- footer
- {
+footer /* positionner en colonnes si mobile */
+{
     margin-top: 5%; 
     background-color: #F2F2F2;
      display : flex;
      justify-content: space-around;
- }
+}
 
- .section_footer
- {
+.section_footer
+{
      margin:0em;
- }
+}
 
 
  
