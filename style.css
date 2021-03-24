@@ -2,7 +2,7 @@ body
 {
     margin : 5%;
     font-family: 'Raleway', sans-serif; 
-    font-size: 0.65em;
+    font-size: 0.45em;
 }
 
 #header_entete
@@ -14,7 +14,10 @@ body
 #header_logo
 {
     float : left;
+    width: 70px;
+    height: 70px;
 }
+
 a
 {
     text-decoration: none;
@@ -22,17 +25,12 @@ a
 
 .header_nav
 {
-    min-width : 50%;
-}
-
-.header_ul
-{
-    border : 1px solid black;
+    min-width: 20%;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap-reverse;
-    list-style: none;
-    margin : auto;
 }
+
 
 .header_li-blue
 {
@@ -54,21 +52,27 @@ a
     display:flex;
 }
 
+
 #main_liste_filtres
 {
-    display:flex;
+    display : flex;
 }
 
 .main_filtres
 {
-    display:flex;
+    display : flex;
+    flex-wrap: wrap;
     list-style:none;
+    justify-content:left;
+    width : 75%;
 }
+
 
 li
 {
-    padding-left:5%;
-    padding-right:5%;
+    padding-left:1%;
+    padding-right:1%;
+    margin-left: 2%;
 }
 
 .main_li_filtres
@@ -90,6 +94,13 @@ li
     background-color: #f2f2f2; 
     justify-content: space-around;
     min-width : 38%;
+
+}
+
+#main_pop_div
+{
+    display : flex;
+    justify-content :space-between;
 }
 
 

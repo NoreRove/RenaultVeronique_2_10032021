@@ -1,0 +1,154 @@
+body
+{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 0.45em;
+}
+
+a
+{
+    outline : none;
+    text-decoration: none;
+    color : black;
+    padding-bottom: 0.1rem;
+}
+
+a:hover
+{
+   background-color: darkgray; 
+   color: white;
+}
+
+/* éléments ci-dessus sont déjà dans footer*/
+
+/* éléments dans Main */
+    /* no background color */
+
+#heb_pop_main
+{
+    display : flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+#pop_main
+{
+    border-radius : 5% 5% 5% 5%;
+    background-color: #F2F2F2;
+    width : 200px;
+    padding : 2%;
+}
+
+#entete_pop_main
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#chart_pop_main
+{
+    margin-top: 7px;
+}
+
+#contenu_pop_main
+{
+    text-align: center;
+}
+
+.articleA
+{
+    border-radius : 7% 7% 7% 7%;
+    background-color: white;
+}
+
+article
+{
+    display : flex;
+    flex-direction: row;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+img
+{
+    border-radius: 5% 0 0 5%;
+    max-width: 30%;
+    height: auto;
+    object-fit: cover;
+    margin : 2px;
+}
+
+.texte_article
+{
+    display : flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left : 5px;
+    margin-bottom: 5px;
+
+}
+
+.p_no_margin_bottom
+{
+    margin-bottom : 0;
+}
+
+.blue
+{
+    color : blue;
+}
+
+.grey
+{
+    color : lightgrey;
+}
+
+#heb_main
+{
+    border-radius : 5% 5% 5% 5%;
+    background-color: #F2F2F2;
+    width : 250px;
+    padding : 2%;
+}
+
+#entete_heb_main /* idem que #entite_pop_main --> Créer classe */
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#contenu_heb_main
+{
+    text-align: center;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articleB
+{
+    border-radius : 7% 7% 7% 7%;
+    display : flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    width : 70px;
+    height : 150px;
+}
+
+#img_articleB
+{
+    max-height: 20px;
+    border : solid 1px black;
+}
+
+
+#contenu_act_main
+{
+    text-align: center;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

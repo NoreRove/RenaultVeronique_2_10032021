@@ -1,0 +1,41 @@
+body
+{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 0.45em;
+}
+
+a
+{
+    outline : none;
+    text-decoration: none;
+    color : black;
+    padding-bottom: 0.1rem;
+}
+
+a:hover
+{
+   background-color: darkgray; 
+   color: white;
+}
+
+
+footer /* positionner en colonnes si mobile */
+{
+    background-color: #F2F2F2;
+}
+
+#sections_footer
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30%;
+}
+
+section
+{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 0.25rem;
+    padding-left: 5%;
+}

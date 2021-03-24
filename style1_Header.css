@@ -1,0 +1,63 @@
+body
+{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 0.45em;
+}
+
+a
+{
+    outline : none;
+    text-decoration: none;
+    color : black;
+    padding-bottom: 0.1rem;
+}
+
+a:hover
+{
+   background-color: darkgray; 
+   color: white;
+}
+
+/* éléments ci-dessus sont déjà dans footer*/
+
+/* nouveaux éléments */
+
+header
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#logo
+{
+    height: 5%;
+    float : left;
+}
+
+nav
+{
+    float: right;
+    text-align: right;
+
+}
+
+#header_nav_ul
+{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    list-style-type: none;
+    float: right;
+
+}
+
+.header_nav_li
+{
+    margin-right: 20px;
+    margin-block-start: 5px;
+}
+
+#accroches
+{
+    clear: both;
+}
