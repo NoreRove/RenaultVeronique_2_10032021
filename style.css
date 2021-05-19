@@ -156,6 +156,11 @@ section
     {
         font-size:1.5em;
     }
+
+    #zone_saisie
+    {
+        font-size : 0.6em;
+    }
 }
 
     /* 2--1 main RECHERCHE VILLE $$$$$$$$$$*/
@@ -188,6 +193,7 @@ section
         padding-left: 2vw;
         display : flex;
         align-items: center;
+        font-size : 1.2em;
     }
 
     #lancer_recherche
@@ -201,6 +207,8 @@ section
         display : flex;
         align-items: center;
         justify-content: center;
+        padding-left : 2px;
+        padding-right: 2px;
     }
 
     #lancer_recherche:hover
