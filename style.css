@@ -304,9 +304,9 @@ section
 
         .icone_filtres
         {
-            width : 30px;
-            height : 30px;
-            margin-left : -5px;
+            width : 3em;
+            height : 3em;
+            margin-left :0px;
             display : flex;
             align-items: center;
             justify-content: center;
@@ -324,11 +324,9 @@ section
             justify-content: center;
         }
 
-        .texte_filtres :hover
+        .filtre :hover
         {
-        text-decoration: underline;
-        font-weight: bold;
-        color : #0066ff;
+        color: #0066ff;
         }
 
         @media screen and (min-width:1200px) /* affichage si grand écran */
