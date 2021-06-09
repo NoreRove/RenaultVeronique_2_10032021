@@ -640,7 +640,7 @@ section
                    object-fit:cover;
                }
 
-               .photoAct2, .photoAct3
+               .photoAct2, .photoAct3, .photoAct5, .photoAct6
                {
                    border-radius: 15px 15px 0 0;
                    width : 100%;
@@ -678,7 +678,7 @@ section
                 #act3
                 {
                     grid-column: 2;
-                    grid-auto-rows: 5em;
+                    grid-auto-rows: 10em;
 
                 }
 
@@ -717,7 +717,7 @@ section
                 .photoAct3
                 {
                     width : 100%;
-                    max-height : 5em;
+                    max-height : 10em;
                     object-fit : cover;
                 }
 
