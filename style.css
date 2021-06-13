@@ -668,23 +668,23 @@ section
                 #boxAct2-3, #box5-6
                 {
                     width: 22vw;
-                    margin-left: 0.6em;
+                    margin-left: 0.5em;
                 }
 
                 #act2, #act5
                 {
-                    margin-bottom : 2vw;
+                    margin-bottom : 2.3vw;
                 }
 
 
-                .photoAct2, .photoAct6
+                .photoAct3, .photoAct5
                 {
                     width : 22.5vw;
                     max-height : 11em;  
                     object-fit: cover;
                 }
 
-                .photoAct3, .photoAct5
+                .photoAct2, .photoAct6
                 {
                     width : 22.5vw;
                     max-height : 13.3em;  
