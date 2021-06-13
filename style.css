@@ -601,15 +601,6 @@ section
 
            /* 2--5--1-- positionnement */
 
-           .boxWS 
-           {
-               background-color: white;
-               border : 1px solid #F2F2F2;
-               box-shadow : 0 5px 5px 0 #F2F2F2;
-               border-radius: 15px;
-               margin-top: 15px;
-           }
-       
            .texte_act
            {
                margin-left: 2em;
@@ -619,7 +610,11 @@ section
 
            .article_act
            {
-            border-radius: 15px 15px 0 0;
+            background-color: white;
+            border : 1px solid #F2F2F2;
+            box-shadow : 0 5px 5px 0 #F2F2F2;
+            border-radius: 15px;
+            margin-top: 15px;
             overflow : hidden;
            }
 
@@ -658,83 +653,45 @@ section
                 {
                     display : grid;
                     grid-template-columns: repeat(4, 1fr);
-                    grid-template-rows: 15em;
+                    grid-template-rows: 35em;
                     grid-gap : 2em;
                     grid-auto-flow: column;
                 }
 
-
-                #act1
-                {
-                    grid-column : 1;
-                }
-                
-                #act2
-                {
-                    grid-column: 2;
-                    grid-auto-rows: 20em;
-                }
-
-                #act3
-                {
-                    grid-column: 2;
-                    grid-auto-rows: 10em;
-
-                }
-
-                #act4
-                {
-                    grid-column: 3;
-                }
-
-                #act5
-                {
-                    grid-column: 4;
-                    grid-auto-rows: 35%;
-                }
-
-                #act6
-                {
-                    grid-column: 4;
-                    grid-auto-rows: 65%;
-                }
-
-               
                 .photoAct1
                 {
-                    width: 250%;
-                    max-height: 33em;
-                    object-fit:cover;
+                    width:auto;
+                    max-height: 90%;
+                    object-fit: cover;
                 }
 
-                .photoAct2
+                #boxAct2-3, #box5-6
                 {
-                    width: 100%;
-                    max-height : 15em;
-                    object-fit:cover;
+                    width: 22vw;
+                    margin-left: 0.6em;
                 }
 
-                .photoAct3
+                #act2, #act5
                 {
-                    width : 100%;
-                    max-height : 10em;
-                    object-fit : cover;
+                    margin-bottom : 2vw;
                 }
 
-                .photoAct5
+
+                .photoAct2, .photoAct6
                 {
-                    width: 100%;
-                    max-height : 10em;
-                    object-fit:cover;
+                    width : 22.5vw;
+                    max-height : 11em;  
+                    object-fit: cover;
                 }
 
-                .photoAct6
+                .photoAct3, .photoAct5
                 {
-                    width : 100%;
-                    max-height : 30em;
-                    object-fit : cover;
+                    width : 22.5vw;
+                    max-height : 13.3em;  
+                    object-fit: cover;
                 }
 
+                
            }
 
 /* 3 éléments du footer ------------------------------- */
