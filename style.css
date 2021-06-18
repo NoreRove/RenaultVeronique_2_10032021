@@ -98,7 +98,7 @@ section
 
     .nav_li:hover
     {
-        border-bottom-style: solid 2px;
+        border-bottom-style: solid;
         border-bottom-color : #0066ff;
     }
 
