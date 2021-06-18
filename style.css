@@ -695,7 +695,6 @@ footer
     display:flex;
     flex-direction: column;
     padding-bottom: 0.5rem;
-    padding-inline-start: 2vw;
 }
 
 @media screen and (max-width:1200px) /* affichage si petit écran */
